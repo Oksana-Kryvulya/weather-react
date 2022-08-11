@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
-}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: default;
+  background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/745/original/1585952628_oblaka_nebo_zakat_136072_1440x2560.jpg?1655641544);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #7b5a5f;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.weather-app {
+  max-width: 1000px !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 1400px) {
+  .pt-xxl-5 {
+    padding-top: 6rem !important;
   }
 }
