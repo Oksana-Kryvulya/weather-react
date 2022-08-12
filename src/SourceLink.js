@@ -4,7 +4,7 @@ export default function SourceLink() {
   return (
     <div className="SourceLink">
       <a
-        href="https://codesandbox.io/s/eloquent-roentgen-2tq557?file=/src/index.js"
+        href="https://github.com/Oksana-Kryvulya/weather-react"
         target="_blank"
         rel="noreferrer"
       >
